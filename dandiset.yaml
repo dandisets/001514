@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,16 +11,24 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Kim, Ian (2025) Collateralization patterns of principal basolateral amygdala
+citation: Kim, Ian T (2025) Collateralization patterns of principal basolateral amygdala
   neurons delineate distinct output streams (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001514/draft
 contributor:
 - affiliation: []
-  email: 1thiank@gmail.com
+  email: ian.t.kim@rutgers.edu
+  identifier: 0000-0002-0482-5523
   includeInCitation: true
-  name: Kim, Ian
+  name: Kim, Ian T
   roleName:
+  - dcite:Author
   - dcite:ContactPerson
+  schemaKey: Person
+- email: pare@rutgers.edu
+  identifier: 0000-0001-5471-8868
+  name: Paré, Denis
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2025-06-25T20:25:07.554797+00:00'
 description: The basolateral amygdala (BLA) projects to many brain regions through
@@ -35,6 +44,7 @@ description: The basolateral amygdala (BLA) projects to many brain regions throu
   that the BLA contains different clusters of neurons that contribute branching axons
   to distinct arrays of largely non-overlapping targets. These results impose a revision
   of how we conceptualize the BLA’s coordination with, and influence over, its targets.
+ethicsApproval: []
 id: DANDI:001514/draft
 identifier: DANDI:001514
 license:
@@ -43,8 +53,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001514/versions/draft/assets/
 name: Collateralization patterns of principal basolateral amygdala neurons delineate
   distinct output streams
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001514/draft
 version: draft
+wasGeneratedBy: []

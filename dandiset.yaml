@@ -11,9 +11,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Kim, Ian T (2025) Collateralization patterns of principal basolateral amygdala
-  neurons delineate distinct output streams (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001514/draft
+citation: Kim, Ian T; Paré, Denis (2025) Collateralization patterns of principal basolateral
+  amygdala neurons delineate distinct output streams (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001514/draft
 contributor:
 - affiliation: []
   email: ian.t.kim@rutgers.edu
@@ -26,6 +26,7 @@ contributor:
   schemaKey: Person
 - email: pare@rutgers.edu
   identifier: 0000-0001-5471-8868
+  includeInCitation: true
   name: Paré, Denis
   roleName:
   - dcite:Author

@@ -11,10 +11,10 @@ assetsSummary:
   approach: []
   dataStandard: []
   measurementTechnique: []
-  numberOfBytes: 13052712364
-  numberOfFiles: 32
+  numberOfBytes: 39631667571
+  numberOfFiles: 89
   numberOfSamples: 14
-  numberOfSubjects: 1
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
@@ -38,6 +38,13 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- awardNumber: MH-112505, MH-119854, MH-138354
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-06-25T20:25:07.554797+00:00'
 description: The basolateral amygdala (BLA) projects to many brain regions through
   which it influences multiple functions. However, there is disagreement regarding

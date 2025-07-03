@@ -1,2 +1,5 @@
 participant_id	sex	species	strain	genotype	vendor	strain_rrid
 sub-CL5	        M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23A9	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23I2	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23I3	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852

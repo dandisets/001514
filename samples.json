@@ -1,0 +1,11 @@
+{
+  "sample_id": {
+    "Description": "Slide number"
+  },
+  "participant_id": {
+    "Description": "Rat ID"
+  },
+  "sample_type": {
+    "Description": "Brain tissue"
+  }
+}

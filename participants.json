@@ -1,0 +1,24 @@
+{
+  "sex": {
+    "Description": "Sex of the rat",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+    }
+  },
+  "species": {
+    "Description": "Species of the animal"
+  },
+  "strain": {
+    "Description": "Strain of the animal"
+  },
+  "genotype": {
+    "Description": "Genotype of the rat"
+  },
+  "vendor": {
+    "Description": "Vendor the rat was obtained from"
+  },
+  "strain_rrid": {
+    "Description": "Research Resource Identifier (RRID) of the animal strain"
+  }
+}

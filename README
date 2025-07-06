@@ -1,1 +1,11 @@
-This dataset contains epifluorescence and confocal images from the BLA collaterals project. AAVrg.pgk.cre was infused in AIC and AAV1-FLEX-tdTomato in BLA. Survival time: 3 weeks. Epifluorescence images were taken at 4X. 80 um slices. The authors are grateful to Drew B. Headley for granting access to the Keyence microscope (Itasca, IL; model BZ-X810).
+This dataset contains epifluorescence (for the two intersectional strategies) and confocal (for the retrograde studies) images from the BLA collaterals project. 
+
+For the first intersectional strategy: AAVrg.pgk.cre was infused in one of the BLA output areas (e.g. AIC, mPFC, dStr) and AAV1.CAG.FLEX.tdTomato in BLA. Survival time: 3 weeks. 
+
+For the second intersectional strategy: AAVrg.pgk.cre was infused in one of the BLA output areas (e.g. AIC, mPFC, dStr)  and AAV1.EF1a.Flpo and AAV8.hSyn.Con/Fon.EYFP were co-infused in BLA. Survival time: 3-6 weeks. Anti-GFP Polyclonal Antibody (Alexa Fluor 488, Thermo-Fisher # A-21311) was used to boost GFP detection sensitivity.
+
+Epifluorescence images were taken at 4X with the BZ-X810 microscope. 
+
+80 um slices. 
+
+The authors are grateful to Drew B. Headley for granting access to the Keyence microscope (Itasca, IL; model BZ-X810).

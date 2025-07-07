@@ -1,9 +1,0 @@
-{
-  "ImageModality": "epifluorescence",
-  "Manufacturer": "Keyence",
-  "Model": "BZ-X810",
-  "AcquisitionSoftware": "BZ-X Viewer",
-  "Magnification": 4,
-  "PixelSize": [1.887, 1.887],
-  "PixelSizeUnits": "um"
-}

@@ -1,11 +1,30 @@
-This dataset contains epifluorescence (for the two intersectional strategies) and confocal (for the retrograde studies) images from the BLA collaterals project. 
+This dataset contains: 
 
+Section 1. epifluorescence (for the two intersectional strategies), and 
+Section 2. confocal (for the retrograde studies) images from the BLA collaterals project. 
+
+Brain slice were sectioned at 80 µm using a freezing microtome. 
+Please refer to the Star Methods section of the paper for other details about the data.
+
+
+(Section 1)
 For the first intersectional strategy: AAVrg.pgk.cre was infused in one of the BLA output areas (e.g. AIC, mPFC, dStr) and AAV1.CAG.FLEX.tdTomato in BLA. Survival time: 3 weeks. 
 
 For the second intersectional strategy: AAVrg.pgk.cre was infused in one of the BLA output areas (e.g. AIC, mPFC, dStr) and AAV1.EF1a.Flpo and AAV8.hSyn.Con/Fon.EYFP were co-infused in BLA. Survival time: 3-6 weeks. Anti-GFP Polyclonal Antibody (Alexa Fluor 488, Thermo-Fisher # A-21311) was used to boost GFP detection sensitivity.
 
-Epifluorescence images were taken at 4X with the BZ-X810 microscope. 
+Epifluorescence images were taken at 4X with the BZ-X810 microscope. The authors are grateful to Drew B. Headley for granting access to the Keyence microscope (Itasca, IL; model BZ-X810).
 
-80 um slices. 
 
-The authors are grateful to Drew B. Headley for granting access to the Keyence microscope (Itasca, IL; model BZ-X810).
+(Section 2)
+The retrograde tracer infusions for each subject is as follows:
+sub-IH23R13 (mPFC CTB, nAc FB, IPAC RR)
+sub-IH23R26 (mPFC CTB, nAc FB, NLOT RR)
+sub-IH23R29 (mPFC FB, nAc RR, NLOT CTB)
+sub-OU24R9 (mPFC FB, nAc RR, IPAC CTB)
+sub-IH23R31 (mPFC CTB, dStr FB, NLOT RR)
+sub-IH23R32 (mPFC CTB, dStr FB, NLOT RR)
+sub-OU24R17 (CeA CTB, BNST-dM FB, VMH RR)
+sub-OU24R12 (BNST FB, VMH RR)
+sub-OU24R10 (BNST FB, CeA CTB)
+
+Confocal images were taken at 20X with the Olympus FV1000 microscope and software, at three Z planes 10 µms apart. The tiff files provided in this dataset include the z-stacked images for each color as well as the overlay used to quantify the number of labeled cells in the BLA ROIs.

@@ -1,0 +1,10 @@
+{
+  "ImageModality": "confocal",
+  "Manufacturer": "Olympus",
+  "Model": "FV1000",
+  "AcquisitionSoftware": "FV10-ASW",
+  "Magnification": 20,
+  "PixelSize": [0.478, 0.478],
+  "PixelSizeUnits": "um",
+  "Channel": "white"
+}

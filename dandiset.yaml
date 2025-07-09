@@ -11,10 +11,10 @@ assetsSummary:
   approach: []
   dataStandard: []
   measurementTechnique: []
-  numberOfBytes: 245765489508
-  numberOfFiles: 501
-  numberOfSamples: 16
-  numberOfSubjects: 20
+  numberOfBytes: 255655854672
+  numberOfFiles: 587
+  numberOfSamples: 26
+  numberOfSubjects: 23
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []

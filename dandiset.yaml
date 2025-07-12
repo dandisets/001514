@@ -11,16 +11,16 @@ assetsSummary:
   approach: []
   dataStandard: []
   measurementTechnique: []
-  numberOfBytes: 283354308911
-  numberOfFiles: 994
+  numberOfBytes: 283354314635
+  numberOfFiles: 995
   numberOfSamples: 57
   numberOfSubjects: 29
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Kim, Ian T; Paré, Denis (2025) Collateralization patterns of principal basolateral
-  amygdala neurons delineate distinct output streams (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001514/draft
+citation: Kim, Ian T; Huerta, Icnelia; Urena, Osmalyn; Yamamoto, Ryo; Paré, Denis
+  (2025) Collateralization patterns of principal basolateral amygdala neurons delineate
+  distinct output streams (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001514/draft
 contributor:
 - affiliation: []
   email: ian.t.kim@rutgers.edu
@@ -31,12 +31,32 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- email: huertaocai@chop.edu
+  identifier: 0009-0008-7970-4989
+  includeInCitation: true
+  name: Huerta, Icnelia
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: osmalyn10@gmail.com
+  includeInCitation: true
+  name: Urena, Osmalyn
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: q52464@gmail.com
+  includeInCitation: true
+  name: Yamamoto, Ryo
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 - email: pare@rutgers.edu
   identifier: 0000-0001-5471-8868
   includeInCitation: true
   name: Paré, Denis
   roleName:
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 - awardNumber: MH-112505, MH-119854, MH-138354
   identifier: https://ror.org/04xeg9z08

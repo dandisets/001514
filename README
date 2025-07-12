@@ -1,22 +1,56 @@
 This dataset contains: 
 
-Section 1. epifluorescence (for the two intersectional strategies), and 
-Section 2. confocal (for the retrograde studies) images from the BLA collaterals project. 
+(Section 1) epifluorescence images (from the two intersectional strategies)
 
-Brain slice were sectioned at 80 µm using a freezing microtome. 
+(Section 2) confocal images (for the retrograde studies)
+
+Brain slices were sectioned at 80 µm using a freezing microtome. 
+
 Please refer to the Star Methods section of the paper for other details about the data.
 
 
-(Section 1)
+
+
+(Section 1) epifluorescence images (from the two intersectional strategies)
+
 For the first intersectional strategy: AAVrg.pgk.cre was infused in one of the BLA output areas (e.g. AIC, mPFC, dStr) and AAV1.CAG.FLEX.tdTomato in BLA. Survival time: 3 weeks. 
 
 For the second intersectional strategy: AAVrg.pgk.cre was infused in one of the BLA output areas (e.g. AIC, mPFC, dStr) and AAV1.EF1a.Flpo and AAV8.hSyn.Con/Fon.EYFP were co-infused in BLA. Survival time: 3-6 weeks. Anti-GFP Polyclonal Antibody (Alexa Fluor 488, Thermo-Fisher # A-21311) was used to boost GFP detection sensitivity.
 
 Epifluorescence images were taken at 4X with the BZ-X810 microscope. The authors are grateful to Drew B. Headley for granting access to the Keyence microscope (Itasca, IL; model BZ-X810).
 
+Subject information:
 
-(Section 2)
+sub-CL5 (first strategy with tdTomato, BLA-AIC)
+sub-OU23A9 (first strategy with tdTomato, BLA-AIC)
+sub-OU23I2 (second strategy with EYFP, BLA-AIC)
+sub-OU23I3 (second strategy with EYFP, BLA-AIC)
+sub-123 (first strategy with tdTomato, BLA-mPFC)
+sub-AD24 (first strategy with tdTomato, BLA-mPFC)
+sub-ATI3 (second strategy with EYFP, BLA-mPFC)
+sub-ATImPFC1 (second strategy with EYFP, BLA-mPFC)
+sub-100 (first strategy with tdTomato, BLA-dStr)
+sub-OU23A5 (first strategy with tdTomato, BLA-dStr)
+sub-OU23A7 (first strategy with tdTomato, BLA-dStr)
+sub-OU23A10 (first strategy with tdTomato, BLA-dStr)
+sub-IH23R21 (second strategy with EYFP, BLA-dStr)
+sub-IH23R24 (second strategy with EYFP, BLA-dStr)
+sub-IH23R34 (first strategy with tdTomato, BM-VMH)
+sub-IH23R37 (first strategy with tdTomato, BM-VMH)
+sub-OU24I8 (second strategy with EYFP, BM-VMH)
+sub-IH23R36 (first strategy with tdTomato, BLA-vHip)
+sub-OU24A12 (first strategy with tdTomato, BLA-vHip)
+sub-OU24A2 (first strategy with tdTomato, BLA-vHip)
+
+
+
+
+(Section 2) confocal images (for the retrograde studies)
+
+Confocal images were taken at 20X with the Olympus FV1000 microscope and software, at three Z planes 10 µms apart. The tiff files provided in this dataset include the z-stacked images for each color as well as the overlay used to quantify the number of labeled cells in the BLA ROIs.
+
 The retrograde tracer infusions for each subject is as follows:
+
 sub-IH23R13 (mPFC CTB, nAc FB, IPAC RR)
 sub-IH23R26 (mPFC CTB, nAc FB, NLOT RR)
 sub-IH23R29 (mPFC FB, nAc RR, NLOT CTB)
@@ -27,4 +61,50 @@ sub-OU24R17 (CeA CTB, BNST-dM FB, VMH RR)
 sub-OU24R12 (BNST FB, VMH RR)
 sub-OU24R10 (BNST FB, CeA CTB)
 
-Confocal images were taken at 20X with the Olympus FV1000 microscope and software, at three Z planes 10 µms apart. The tiff files provided in this dataset include the z-stacked images for each color as well as the overlay used to quantify the number of labeled cells in the BLA ROIs.
+
+
+
+(Extraneous) two files that I can't seem to upload to DANDI
+
+The 'dataset_description.json' file:
+
+{
+  "Name": "BLA collaterals project epifluorescence and confocal microscopy data",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": ["Ian T Kim", "Icnelia Huerta Ocampo", "Osmalyn Urena", "Ryo Yamamoto", "Denis Paré"]
+}
+
+The 'participants.tsv' file:
+
+participant_id	sex	species	strain	genotype	vendor	strain_rrid
+sub-CL5	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23A9	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23I2	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23I3	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-123	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-AD24	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-ATI3	F	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-ATImPFC1	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-100	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R21	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R24	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R34	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R36	F	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R37	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23A5	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23A7	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU24A12	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU24A2	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU23A10	F	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU24I8	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R29	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R13	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU24R9	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU24R17	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU24R12	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-OU24R10	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R26	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R31	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
+sub-IH23R32	M	Rattus norvegicus	Long-Evans	wildtype	Charles River	RRID:RGD_2308852
